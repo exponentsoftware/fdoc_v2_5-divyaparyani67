@@ -1,0 +1,24 @@
+1. What is the difference between some() and every()? Explain these using your own words.
+
+the every method checks if all the array elements statisfy the the given condititon, even if one element does not satisfy the condition if returns false.
+the some method returns true even if one of the elemnt in the array satisfy the condition.
+
+
+
+2. Explain the difference between the spread operator and the rest parameter in JavaScript.
+
+using  spread operator we can copy whole or part of an object and create new objcet it works on array too.
+rest operator is used in a function as an multiple arguments and sums them into one.
+
+
+- Explain the difference between splice() and slice() in JavaScript arrays.
+ with splice method we can add a new element or remove or replace any specific element by giving the index.
+  with slice method we can emove particular element by defining the index and create a new copy of the array
+
+- If you need to remove an object element from an array by its index, which method do you prefer to use: splice() or filter()? Explain.
+if we want to remove an object from an array by its index it good to use splice method as it will create a new array by removing the index.
+if we use the filter method we get new array with the changed values without effection the original array as filter will pass only the lements with pass the given condition. so both method are usefull  but it depends on the requirement of keeping the old array.
+
+
+- Explain the difference between `null` and `undefined` in JavaScript.
+null is pimitive data type  it holds no value it is intentional absence of a value, undefined means when varibale is declared but has not been difinied/assigned any value.
